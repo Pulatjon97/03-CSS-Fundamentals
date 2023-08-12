@@ -7,6 +7,7 @@ h1, h2, h3 {
   color: #1098ad;
 }
 
+
 h1 {
   font-size: 26px;
   
@@ -114,4 +115,23 @@ a:active {
   background-color: cyan;
   font-style: italic;
 }
+
 /* LVHA */ 
+
+/* Resolving conflict */
+
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */
