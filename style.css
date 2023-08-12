@@ -105,14 +105,13 @@ a:visited {
 }
 
 a:hover {
-    color: orangered;
-    font-weight: bold;
-    text-decoration: underline orangered;
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
 }
 
 a:active {
   background-color: cyan;
   font-style: italic;
 }
-
-/* LVHA */
+/* LVHA */ 
