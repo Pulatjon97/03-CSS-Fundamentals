@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
@@ -5,6 +10,8 @@ body {
 
 .product {
   border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
 }
 
 /* PRODUCT */
@@ -13,6 +20,8 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 15px;
+  
 }
 
 
@@ -26,6 +35,7 @@ font-size: 12px;
 text-transform: uppercase;
 font-weight: bold;
 color: #777;
+margin-bottom: 20px;
 }
 
 .more-info:link, .more-info:visited {
@@ -41,10 +51,17 @@ color: black;
 .details-title {
 text-transform: uppercase;
 font-size: 16px;
+margin-bottom: 15px;
+margin-top: 30px;
 }
 
 .details-list {
   list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+margin-bottom: 10px;
 }
 
 /* BUTTON */
@@ -56,6 +73,9 @@ font-size: 16px;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
 }
 
 .add-cart:hover {
