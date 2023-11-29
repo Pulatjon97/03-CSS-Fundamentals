@@ -13,7 +13,7 @@
 
 <div class="container">
 
-<header class="main-header">
+<header class="main-header clearfix">
     <h1>📘 The Code Magazine</h1>
     <nav>
       <!-- <strong>This is the navigation</strong> -->
@@ -22,17 +22,24 @@
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
     </nav>
+
+    <!-- <div class="clear"></div> -->
 </header>
  
 <article>
     <header class="post-header">
     <h2>The Basic Language of the Web: HTML</h2>
 
-    <img src="img/laura-jones.jpg" alt="Photo of Laura Jones" width="50px" height="50px"
+    <img src="img/laura-jones.jpg" alt="Photo of Laura Jones" width="50px" height="50px" class="author-img"
     >
-    <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-   <img src="img/post-img.jpg" alt="picture of a few lines of codes" width="500px" height="200px" class="post-img"
+    <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027 
+    </p>
+   <img src="img/post-img.jpg" alt="picture of a few lines of codes"  class="line-img"
+  
    />
+   
+   <!-- Around here I made a mistake, couldn't find so I had to create a class and gave another properties to maintain the current view -->
+  
    <button>❤️Like</button>
 </header>
 
