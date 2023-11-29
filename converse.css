@@ -14,12 +14,12 @@ body {
   clear: both;
 }
 
-.container {
-  /* background-color: red; */
-}
+/* .container {
+  background-color: red;
+} */
 
 .product-img {
-  float: left;
+  float: left; 
   margin-right: 40px;
 }
 
